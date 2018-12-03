@@ -1,0 +1,637 @@
+body{margin:0px; padding:0px; font-family:Arial,宋体; font-size:12px; color:#333333;}
+ul,dl,dd,h1,h2,h3,h4,h5,h6,form,p,input{padding:0; margin:0;}
+ul{list-style:none;}
+img{border:0px;}
+
+a{text-decoration:none; color:#333;}
+a:hover{text-decoration:underline; color:#C00;}
+
+/*通用样式定义开始*/
+.common_01{width:1000px; margin:0px auto;}
+.common_02{clear:both;}
+.common_03{width:1190px; margin:0px auto;}
+.common_04{width:980px; margin:0px auto;}
+/*通用样式定义结束*/
+
+/*列表、内容分页样式定义开始*/
+#fenye{color:#999;}
+#fenye a,#fenye span{padding:2px 5px;text-decoration:none; font-size:14px;margin-left:5px; text-align:center; color:#666; background:#eee}
+#fenye .prev,#fenye .next{width:55px; text-align:center;}
+#fenye span{ background:#fff; text-decoration:underline;color:#00659c; font-family:"Microsoft YaHei", Arial, Helvetica, sans-serif; text-align:center;font-weight:bold; }
+#fenye a:hover{color:#00659c; text-decoration:none;}
+/*列表、内容正文分页样式定义结束*/
+
+/*头部样式定义开始*/
+.top_01{width:100%; background-color:#004A51;}
+.top_02{width:240px; float:left;}
+.top_03{width:760px; float:left; position:relative;}
+.top_03 ul{position:absolute;}
+.top_03 li{float:left;}
+.top_03 a{display:block;padding:29px 14px 0px 14px;text-decoration:none; color:#FFF;}
+.top_03 a:hover{background-color:#003539; font-weight:bold;text-decoration:none; color:#FFF;}
+.top_04{height:27px;font-family:微软雅黑; font-size:15px;}
+.top_05{height:60px;font-family:Arial;}
+/*头部样式定义结束*/
+
+/*首页样式定义开始*/
+.index_01{width:100%; text-align:center; overflow:hidden;}
+.index_02{width:100%; height:15px; background-color:#CCCCCC;}
+.index_03{margin-top:30px;}
+.index_04{margin-top:20px; height:40px; line-height:40px;}
+.index_05{width:109px; float:left; font-family:Arial; font-size:24px; color:#FFBF00;}
+.index_06{font-family:微软雅黑; font-size:19px; color:#0A7581;}
+.index_07{width:40px; float:right;font-family:微软雅黑; font-size:13px; }
+.index_07 a{text-decoration:none; color:#43B6C2;}
+.index_07 a:hover{text-decoration:underline; color:#43B6C2;}
+.index_08{margin-top:20px;}
+.index_09{width:129px; float:left; font-family:Arial; font-size:24px; color:#FFBF00;}
+.index_10{width:149px; float:left; font-family:Arial; font-size:24px; color:#FFBF00;}
+.index_11{width:290px; float:left; margin-left:10px;}
+.index_11 a{font-family:微软雅黑; font-size:20px;text-decoration:none; color:#FFF;}
+.index_11 a:hover{font-weight:bold;text-decoration:none; color:#FFF;}
+.index_12{margin-top:38px;}
+.index_13{height:42px; line-height:42px;font-family:微软雅黑; font-size:17px;}
+.index_13 a{text-decoration:none; color:#0A7F8C;}
+.index_13 a:hover{font-weight:bold;text-decoration:none; color:#0A7F8C;}
+.index_14{height:305px; line-height:20px;}
+.index_14 li{padding-top:10px; padding-bottom:10px; border-bottom:1px solid #DDDDDD;}
+.index_14 a{text-decoration:none; color:#555555;}
+.index_14 a:hover{text-decoration:none; color:#C00;}
+.index_15{font-family:Arial; font-size:11px; color:#BBBBBB;}
+.index_16{width:55px; float:right;}
+.index_17{width:238px; float:left;}
+.index_18{margin-left:16px;}
+/*首页样式定义结束*/
+
+/*底部样式定义开始*/
+.end_01{width:100%; background-color:#9AD3CC; margin-top:30px;}
+.end_02{width:418px;float:left;}
+.end_03{padding-top:25px; line-height:20px; text-align:right; color:#FFFFFF;}
+.end_04{width:218px; float:left;}
+.end_05{height:26px; line-height:26px; background-color:#E1F2F0; color:#004A51; text-align:right; padding-right:7px; font-weight:bold;}
+.end_06{height:176px;}
+.end_06 li{line-height:24px;text-align:right; padding-right:7px;}
+.end_06 a{text-decoration:none; color:#004A51;}
+.end_06 a:hover{text-decoration:underline; color:#004A51;}
+.end_07{margin-left:43px;}
+.end_08{margin-left:42px;}
+.end_09{width:100%; background-color:#004B51; margin-bottom:55px;}
+.end_10{width:209px; float:left;}
+.end_11{width:215px; float:right;padding-top:27px;}
+.end_12{padding-top:30px; line-height:20px; color:#FFF;font-size: 12px;}
+.end_12 a{text-decoration:none; color:#FFF;}
+.end_12 a:hover{text-decoration:underline; color:#FFF;}
+.end_13{width:72px; float:right;}
+.end_14 img{margin-bottom:8px;}
+.end_15{background-image:url(bottomkefubg.gif); text-align:center;bottom: 0; margin: 0 auto; position: fixed; width: 100%; height:69px; z-index: 999; _bottom:auto; _width: 100%; _position: absolute;  _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop, 10)||0)-(parseInt(this.currentStyle.marginBottom, 10)||0)));}
+/*底部样式定义开始*/
+
+/*文章列表样式定义开始*/
+.articlelist_01{height:48px; line-height:48px; color:#000000;}
+.articlelist_02{color:#3B7F92;}
+.articlelist_02 a{text-decoration:none; color:#3B7F92;}
+.articlelist_02 a:hover{text-decoration:underline; color:#3B7F92;}
+.articlelist_03{height:30px; line-height:30px; background-color:#CDEAED;}
+.articlelist_04{width:300px; background-color:#2D8C97; padding-left:9px; font-family:微软雅黑; font-size:17px; font-weight:bold; color:#FFF;}
+.articlelist_05{margin-top:32px;}
+.articlelist_06{width:732px; float:left; border-right:1px solid #D7D7D7;}
+.articlelist_07{width:267px; float:left;}
+.articlelist_06 li{width:675px;margin-top:10px; margin-bottom:20px; border-bottom:1px solid #D7D7D7;}
+.articlelist_08{height:23px; padding-left:11px; color:#666666;}
+.articlelist_09{height:40px; padding-left:11px; font-family:微软雅黑; font-size:28px;}
+.articlelist_09 a{text-decoration:none; color:#226C76;}
+.articlelist_09 a:hover{text-decoration:none; color:#C00;}
+.articlelist_10{height:65px; line-height:26px; padding-left:11px; font-size:14px; color:#777777;}
+.articlelist_11 a{text-decoration:none; color:#C00;}
+.articlelist_11 a:hover{text-decoration:underline; color:#C00;}
+.articlelist_12{height:50px; line-height:50px; text-align:right; padding-right:57px;}
+.articlelist_12 a{text-decoration:none; color:#444444;}
+.articlelist_12 a:hover{text-decoration:underline; color:#C00;}
+.articlelist_13{height:45px; line-height:45px; padding-left:33px;font-family:微软雅黑;}
+.articlelist_14{font-size:20px; color:#0A7F8C;}
+.articlelist_15{font-size:18px;}
+.articlelist_16{padding-left:33px; padding-top:10px;}
+.articlelist_16 li{width:215px;height:35px; line-height:35px; border-bottom:1px solid #D7D7D7; color:#545454;}
+.articlelist_16 a{text-decoration:none; color:#545454;}
+.articlelist_16 a:hover{text-decoration:none; color:#FF7F00; font-weight:bold;}
+.articlelist_17 a{text-decoration:none; color:#FF7F00; font-weight:bold;}
+/*文章列表样式定义结束*/
+
+/*文章内容样式定义开始*/
+.articlecontent_01{margin-top:10px; padding-left:11px; height:23px; color:#666666;}
+.articlecontent_02{padding-left:11px; padding-bottom:20px; font-family:微软雅黑; font-size:28px; color:#222222;}
+.articlecontent_03{padding-left:11px; padding-right:27px; line-height:27px; font-size:14px; color:#777777;}
+.articlecontent_04{height:40px; line-height:40px;text-align:center;}
+.articlecontent_05{margin-top:15px; padding-left:11px;line-height:24px; font-size:14px;}
+/*文章内容样式定义结束*/
+
+/*租车头部样式定义开始*/
+.cartop_01{width:100%; height:34px; line-height:34px; border-bottom:1px solid #DFDFDF; background-color:#FAFAFA;}
+.cartop_01 a{text-decoration:none; color:#666666;}
+.cartop_01 a:hover{text-decoration:none; color:#C00;}
+.cartop_02{width:387px; height:100px; float:left;}
+.cartop_03{width:302px; height:100px;  float:left;}
+.cartop_04{width:501px; height:100px; float:left;}
+.cartop_05{margin-top:20px; line-height:30px; text-align:right;padding-right:9px; color:#666666;}
+.cartop_05 a{text-decoration:none; color:#666666;}
+.cartop_05 a:hover{text-decoration:none; color:#C00;}
+.cartop_06{margin-top:21px;}
+.cartop_07{float:left;}
+.cartop_07 input{width:379px; border:1px solid #DFDFDF; height:34px; padding-left:5px; color:#999;}
+.cartop_08{float:left;}
+.cartop_09{margin-top:12px;}
+.cartop_09 a{margin-right:5px;text-decoration:none; color:#666666;}
+.cartop_09 a:hover{text-decoration:none; color:#C00;}
+.cartop_10{width:226px; float:left; padding-left:19px; height:45px; line-height:45px; background-image:url(images/carindex_09.jpg); font-family:微软雅黑; font-size:16px;}
+.cartop_10 a{text-decoration:none; color:#fff;}
+.cartop_10 a:hover{text-decoration:none; color:#fff; font-weight:bold;}
+.cartop_11{height:45px; background-color:#004A51; font-family:微软雅黑; font-size:16px; color:#fff;}
+.cartop_11 li{float:left;}
+.cartop_11 a{display:block; padding:11px 22px;text-decoration:none; color:#fff;}
+.cartop_11 a:hover{background-color:#006770; text-decoration:none; color:#fff; font-weight:bold;}
+.cartop_12 a{padding:8px 0px 0px 0px; margin-left:30px;}
+.cartop_12 a:hover{background:none;}
+/*租车头部样式定义开始*/
+
+/*租车首页样式定义开始*/
+.carindex_01{width:245px; float:left;}
+.carindex_011 li{height:45px; line-height:45px; background-image:url(images/carindex_11.jpg); font-family:微软雅黑; font-size:13px; position:relative;}
+.carindex_011 a{display:block; width:225px; padding-left:20px;text-decoration:none; color:#333;}
+.carindex_011 a:hover{background-color:#A2D8DB; text-decoration:none; color:#fff; font-weight:bold;}
+.carindex_02 li{float:left;}
+.carindex_02 img{border-top:1px solid #DFDFDF; border-bottom:1px solid #DFDFDF; border-right:1px solid #DFDFDF;}
+.carindex_03{margin-top:26px; height:50px; line-height:50px;}
+.carindex_03_01{font-family:微软雅黑;font-size:17px;}
+.carindex_03_02{width:60px; float:right;font-family:微软雅黑;font-size:14px;}
+.carindex_04{width:1188px; margin:0px auto;border-left:1px solid #DFDFDF;border-top:1px solid #DFDFDF;border-bottom:1px solid #DFDFDF;}
+.carindex_04 li{width:284px; float:left; padding:6px;border-right:1px solid #DFDFDF; text-align:center;}
+.carindex_04 li:hover{background-color:#F3F3F3;}
+.carindex_05{height:26px;background-color:#FFF;font-family:微软雅黑;font-size:17px;}
+.carindex_06{height:35px;background-color:#FFF;font-family:微软雅黑;font-size:13px; color:#777777;}
+.carindex_07{width:1188px; margin:0px auto;border:1px solid #DFDFDF;}
+.carindex_08{width:297px; float:right;}
+.carindex_09 li{width:296px;float:left; border-right:1px solid #DFDFDF;border-bottom:1px solid #DFDFDF;}
+.carindex_10{height:26px;margin-top:11px; padding-left:21px;font-family:微软雅黑;font-size:19px;}
+.carindex_11{height:17px;padding-left:21px;font-family:微软雅黑;font-size:12px;}
+.carindex_12{height:26px;padding-left:21px;font-family:微软雅黑;font-size:17px;}
+.carindex_13{}
+.carindex_14{width:216px;float:left;}
+.carindex_15{height:36px;margin-top:32px; padding-left:33px;font-family:微软雅黑;font-size:27px;}
+.carindex_16{height:21px;padding-left:33px;font-family:微软雅黑;font-size:15px; color:#777777;}
+.carindex_17{height:147px;padding-left:33px;font-family:微软雅黑;font-size:21px;}
+.carindex_18{padding-left:33px;}
+.carindex_19{display:none;position:absolute; top:0px; left:235px; width:239px; z-index:99;}
+.carindex_20{padding-top:12px; padding-left:10px;background-image:url(images/carindex_012.png); line-height:30px;}
+.carindex_20 a{display:inline;text-decoration:none; color:#333;}
+.carindex_20 a:hover{background:none;text-decoration:none; color:#319AEB;}
+.carindex_21{height:104px; line-height:104px;font-family:微软雅黑; font-size:24px; text-align:center;}
+.carindex_22{color:#FF4A00;}
+.carindex_23 li{height:96px; line-height:96px; border-top:1px solid #DFDFDF;}
+.carindex_23 li:hover{background-color:#FAFAFA;}
+.carindex_24{width:63px; float:left; text-align:center;color:#FF4A00; font-size:40px; font-family:Arial;}
+.carindex_25{width:90px; float:right;padding-top:16px;}
+.carindex_26{line-height:22px; font-size:14px;font-family:微软雅黑; padding-top:27px;}
+.carindex_27{background-color:#FAFAFA; padding-left:23px; border-top:1px solid #DFDFDF;}
+.carindex_28{height:50px; line-height:50px;font-size:18px;font-family:微软雅黑; font-weight:bold;}
+.carindex_29{height:45px;}
+.carindex_29 input{ border:1px solid #E4E4E4; height:35px; line-height:32px; color:#A2A2A2; padding-left:14px; font-size:14px;}
+.carindex_30{height:53px; line-height:20px; color:#999;font-family:微软雅黑;}
+.carindex_31{width:118px; height:39px; background-color:#DCDEE4; border:none;font-family:微软雅黑; font-size:14px;}
+.carindex_32{width:118px; height:39px; background-color:#FF4A00; color:#FFF; border:none; margin-left:13px;font-family:微软雅黑; font-size:14px;}
+/*租车首页样式定义结束*/
+
+/*租车底部样式定义开始*/
+.carend_01{width:100%; margin-top:30px; background-color:#F6F6F6;}
+.carend_02{margin-top:39px;}
+.carend_03{width:164px; float:left; height:121px; padding-left:31px; border-right:1px solid #DFDFDF;}
+.carend_04{margin-top:9px; height:30px; font-size:14px; font-weight:bold;}
+.carend_05 li{height:24px; line-height:24px;}
+.carend_05 a{text-decoration:none; color:#666666;}
+.carend_05 a:hover{text-decoration:none; color:#C00;}
+.carend_06{width:210px; float:left;padding-left:31px;}
+.carend_07{width:170px;height:48px; padding-top:3px; line-height:22px; text-align:center;}
+.carend_08{width:170px;text-align:center;}
+.carend_09{width:215px; float:right;}
+.carend_10{line-height:22px;color:#838383;}
+.carend_10 a{text-decoration:none; color:#838383;}
+.carend_10 a:hover{text-decoration:none; color:#C00;}
+.carend_11{height:38px; border-bottom:1px solid #DFDFDF;}
+.carend_12{margin-top:45px; padding-bottom:30px;}
+.carend_13{width:134px; float:left;}
+.carend_13 img{margin-bottom:8px;}
+.carend_14{width:73px; float:left; margin-left:8px;}
+.carend_15{border-bottom:1px solid #DFDFDF;}
+/*租车底部样式定义结束*/
+
+/*租车列表样式定义开始*/
+.carlist_01{width:245px; float:left;}
+.carlist_02 li{height:45px; line-height:45px; background-image:url(images/carlist_01.jpg); font-family:微软雅黑; font-size:13px; position:relative;}
+.carlist_02 a{display:block; width:225px; padding-left:20px;text-decoration:none; color:#974C19;}
+.carlist_02 a:hover{background-color:#F29D4D; text-decoration:none; color:#fff; font-weight:bold;}
+.carlist_03{height:49px; line-height:49px; margin-top:14px; border:1px solid #DFDFDF; padding-left:19px;font-family:微软雅黑; font-size:18px; color:#434A54;}
+.carlist_04 li{border-bottom:1px solid #DFDFDF;border-left:1px solid #DFDFDF;border-right:1px solid #DFDFDF; padding:15px 7px;}
+.carlist_05{width:72px; float:left;}
+.carlist_06{line-height:20px; font-family:微软雅黑;font-size:13px; color:#444B55;}
+.carlist_06 a{text-decoration:none; color:#444B55;}
+.carlist_06 a:hover{text-decoration:none; color:#C00;}
+.carlist_07{width:935px; float:left;margin-top:10px; margin-left:10px;}
+.carlist_08{border:1px solid #E6E9EE; padding-bottom:10px;}
+.carlist_09{height:53px; line-height:53px;border-bottom:1px solid #E6E9EE;}
+.carlist_10{padding-left:17px;font-family:微软雅黑;font-size:17px; color:#434A54;}
+.carlist_11{width:76px; float:right;}
+.carlist_12{line-height:25px; margin-top:10px;}
+.carlist_13{width:86px; float:left; text-align:right; font-weight:bold; color:#434A53;}
+.carlist_14{color:#CCD1D9;}
+.carlist_14 a{padding:5px 8px; text-decoration:none;color:#434A53;white-space:nowrap;}
+.carlist_14 a:hover{background-color:#AAB2BD; text-decoration:none;color:#FFF;}
+a.carlist_14_1{background-color:#AAB2BD; text-decoration:none;color:#FFF;}
+.carlist_15{margin-top:15px; border:1px solid #E6E9EE;}
+.carlist_16{border-top:1px solid #E6E9EE;border-bottom:1px solid #E6E9EE; overflow:hidden;}
+.carlist_16 ul{width:936px;}
+.carlist_16 li{width:233px; height:260px; float:left;border-right:1px solid #E6E9EE;border-bottom:1px solid #E6E9EE;}
+.carlist_17{margin:28px auto 0px auto; width:180px; height:155px;}
+.carlist_18{margin:0px auto; width:180px; height:20px;}
+.carlist_18 a{text-decoration:none; color:#434A52;}
+.carlist_18 a:hover{text-decoration:none; color:#C00;}
+.carlist_19{margin:0px auto; width:180px; height:25px; font-size:13px;}
+.carlist_19 s{color:#AAB2BD;}
+.carlist_20{margin:0px auto; width:180px;}
+.carlist_20 img{padding-top:3px;}
+.carlist_20 a{text-decoration:none; color:#434A53;}
+.carlist_20 a:hover{text-decoration:none; color:#C00;}
+.carlist_21{height:68px; line-height:68px; text-align:center;}
+/*租车列表样式定义结束*/
+
+/*租车内容样式定义开始*/
+.carcontent_01{height:45px; line-height:45px;color:#979693; font-size:14px;}
+.carcontent_01 a{text-decoration:none; color:#979693;}
+.carcontent_01 a:hover{text-decoration:none; color:#C00;}
+.carcontent_02{width:1188px; margin:0px auto;border:1px solid #DFDFDF;}
+.carcontent_03{width:640px; float:left;}
+.carcontent_04{width:500px; float:left; margin-left:21px;}
+.carcontent_05{height:44px; margin-top:30px; border-bottom:1px solid #EDEDED; font-family:微软雅黑;font-size:22px; font-weight:bold; color:#5E5E5E;}
+.carcontent_06{padding-top:15px; padding-left:2px; line-height:26px;font-family:微软雅黑; font-size:13px; color:#B8B8B8;}
+.carcontent_07{font-weight:bold; font-size:20px; color:#ED5F11;}
+.carcontent_08{color:#FFB072;}
+.carcontent_09{color:#CC0000;}
+.carcontent_10{margin-top:15px;}
+.carcontent_10 img{padding-top:2px;}
+.carcontent_10 input{width:52px; height:20px; line-height:20px; border:none; background-image:url(images/carcontent_12.jpg); text-align:center;}
+.carcontent_11{margin-top:10px; padding-left:2px;}
+.carcontent_11 img{margin-right:13px;}
+.carcontent_12{width:245px; float:left;}
+.carcontent_13{width:933px; float:left; margin-left:10px;margin-top:14px;border:1px solid #DFDFDF;}
+.carcontent_14{height:49px; line-height:49px;border-bottom:1px solid #DFDFDF; font-size:16px; padding-left:5px;}
+.carcontent_14 li{width:105px; float:left; text-align:center;cursor:pointer;}
+.carcontent_15{color:#FF4A00;}
+.carcontent_16{color:#434A54;}
+.carcontent_17{padding-top:30px; padding-bottom:30px; text-align:center;}
+.carcontent_18{margin:20px 20px; text-align:center;}
+.carcontent_19{margin-top:10px;}
+.carcontent_19 img{padding:2px; border:2px solid #EDEDED; margin-left:10px; margin-bottom:10px; cursor:pointer;}
+/*租车内容样式定义结束*/
+
+/*景点列表样式定义开始*/
+.jingdianlist_01{width:100%; height:30px; border-bottom:3px solid #CDEAED;}
+.jingdianlist_02{margin-top:30px; margin-bottom:30px;}
+.jingdianlist_03{margin-top:55px; border-top:5px solid #D6D6D6;}
+.jingdianlist_04{width:102px; float:left;}
+.jingdianlist_05{width:800px; float:left;}
+.jingdianlist_05 li{float:left; border-right:1px solid #D6D6D6; font-family:微软雅黑;font-size:17px;}
+.jingdianlist_05 a{display:block; height:47px; padding-left:28px; padding-right:28px; padding-top:8px;text-decoration:none; color:#777777;}
+.jingdianlist_05 a:hover{text-decoration:none; color:#2D8C97;}
+.jingdianlist_06{width:83px; float:left;}
+.jingdianlist_07{font-family:Arial;font-size:11px;}
+.jingdianlist_08{margin-top:35px; background-color:#F3F3F3;}
+.jingdianlist_09{width:445px; float:left;}
+.jingdianlist_10{width:555px; float:left;}
+.jingdianlist_11{width:115px; float:left; height:39px; margin-top:19px;border-bottom:2px solid #FFD800; font-family:微软雅黑;font-size:22px; color:#0A7480;}
+.jingdianlist_12{height:58px;border-bottom:2px solid #AAAAAA;}
+.jingdianlist_13{margin-top:16px;font-family:微软雅黑;font-size:22px;}
+.jingdianlist_13 a{text-decoration:none; color:#0A7480;}
+.jingdianlist_13 a:hover{text-decoration:none; color:#FFBF00;}
+.jingdianlist_14{font-family:Arial;font-size:25px;color:#FFBF00;}
+.jingdianlist_15{margin-top:11px;font-family:微软雅黑;font-size:15px; color:#777777; line-height:22px;}
+.jingdianlist_16{margin-top:40px; border-top:1px solid #CCCCCC; text-align:right; height:50px; line-height:50px;}
+/*景点列表样式定义结束*/
+
+/*景点内容样式定义开始*/
+.jingdiancontent_01{margin-top:23px; height:25px; line-height:25px; background-color:#F5F5F5;}
+.jingdiancontent_02{width:105px; float:right;color:#666666;}
+.jingdiancontent_03{padding-left:5px;font-family:Arial;font-size:11px;color:#666666;}
+.jingdiancontent_04{margin-top:9px; height:70px; line-height:70px;}
+.jingdiancontent_05{width:200px; float:right; text-align:right;}
+.jingdiancontent_05 img{margin-top:25px; margin-left:10px;}
+.jingdiancontent_06{font-family:微软雅黑;font-size:28px; color:#212121;}
+.jingdiancontent_07{background-image:url(images/jindiancontent_13.jpg); text-align:center; padding-top:10px;}
+.jingdiancontent_07 img{margin-bottom:15px;}
+.jingdiancontent_08{margin-top:20px; height:45px; line-height:45px;font-family:微软雅黑;font-size:17px; color:#202020; font-weight:bold;}
+.jingdiancontent_09{color:#0A7F8C;}
+.jingdiancontent_10{line-height:30px; font-size:14px;color:#444444;  padding-bottom:30px; border-bottom:1px solid #DDDDDD;}
+.jingdiancontent_11{height:60px; line-height:60px; text-align:right;}
+.jingdiancontent_11 img{padding-top:18px; margin-left:8px;}
+.jingdiancontent_11 a{text-decoration:none; color:#444444;}
+.jingdiancontent_11 a:hover{text-decoration:none; color:#C00;}
+/*景点内容样式定义结束*/
+
+/*网站单页样式定义开始*/
+.page_01{line-height:28px; padding-top:10px; font-size:14px;}
+/*网站单页样式定义结束*/
+
+/*我要接送机样式定义开始*/
+.jieji_01{margin-top:50px;}
+.jieji_02{height:470px;background-position:center top;}
+/*我要接送机样式定义结束*/
+
+/*我要结婚样式定义开始*/
+.jiehun_01{width:1200px; margin:0px auto;}
+.jiehun_02{height:95px; line-height:95px; font-size:32px; font-family:微软雅黑;}
+.jiehun_03{float:left;}
+.jiehun_04{width:938px; margin:0px auto; overflow:hidden;}
+.jiehun_05{height:85px; line-height:85px; font-family:微软雅黑; color:#D75668;}
+.jiehun_05_01{width:200px; float:left; font-size:32px;}
+.jiehun_05_02{text-align:right; font-size:19px;}
+.jiehun_05_02 a{text-decoration:none; color:#D75668;}
+.jiehun_05_02 a:hover{text-decoration:none; color:#D75668; font-weight:bold;}
+.jiehun_06{width:1200px;}
+.jiehun_06 li{width:300px; float:left; margin-right:20px; background-color:#FFF;}
+.jiehun_07{height:60px;line-height:60px; padding-left:30px; color:#C2C2C9;}
+.jiehun_08{height:45px;line-height:45px; padding-left:30px; font-size:16px; font-weight:bold;}
+.jiehun_08 a{text-decoration:none; color:#5A5A5A;}
+.jiehun_08 a:hover{text-decoration:none; color:#C00;}
+.jiehun_09{height:140px;line-height:30px; padding-left:30px; padding-right:30px; font-size:14px; color:#8F8F8F;}
+.jiehun_10{padding-left:30px; height:40px;}
+.jiehun_10 a{text-decoration:none; color:#C9C2D8;}
+.jiehun_10 a:hover{text-decoration:none; color:#C00;}
+.jiehun_11{width:100%; background-color:#FCF0F0; height:680px;}
+.jiehun_12{position:relative;}
+.jiehun_13{position:absolute; bottom:0px; left:20px;}
+/*我要结婚样式定义结束*/
+
+/*我要长包车样式定义开始*/
+.changbaoche_01{margin-top:30px;}
+/*我要长包车样式定义结束*/
+
+/*需求式定义开始*/
+.xuqiu_01{height:90px; line-height:90px; margin-top:20px; border-bottom:1px solid #E6E9EE;font-size:28px; font-family:微软雅黑; color:#004A51;}
+.xuqiu_02{height:69px; background-color:#FAFAFA;}
+.xuqiu_03{margin-top:29px;font-size:14px; font-family:微软雅黑; color:#545454;}
+.xuqiu_04{width:200px; height:28px; border:1px solid #CCCCCC;}
+.xuqiu_05{color:#FF3F00;}
+.xuqiu_06{width:550px; height:95px; border:1px solid #CCCCCC;}
+.xuqiu_07{width:917px; float:left;}
+.xuqiu_08{width:250px; float:left; margin-left:23px;}
+.xuqiu_09{height:135px; background-color:#FAFAFA;}
+/*需求样式定义结束*/
+
+/*会员样式定义开始*/
+.huiyuan_01{width:100%; height:29px; line-height:29px; border-bottom:1px solid #DFDFDF; font-size:13px; font-family:微软雅黑;}
+.huiyuan_01 a{text-decoration:none; color:#545454;}
+.huiyuan_01 a:hover{text-decoration:none; color:#C00;}
+.huiyuan_02{width:60px; float:left;}
+.huiyuan_03{text-align:right;}
+.huiyuan_03 span{background-image:url(images/huiyuan_09.jpg); cursor:pointer; margin-left:10px; display:inline-block; width:44px; text-align:left; position:relative;}
+.huiyuan_03 span:hover{background-image:url(images/huiyuan_09_hover.jpg);}
+.huiyuan_03_01{display:none;position:absolute; top:29px; left:0px; border:1px solid #D4D5D4; background-color:#FFF; width:60px; padding-left:10px; font-size:12px; line-height:25px;}
+.huiyuan_03_01 a{text-decoration:none; color:#316697;}
+.huiyuan_03_01 a:hover{text-decoration:none; color:#C00;}
+.huiyuan_04{width:138px; float:left;}
+.huiyuan_05{text-align:right;}
+.huiyuan_06{width:100%; height:37px; line-height:37px; background-color:#004A51;font-size:13px; font-family:微软雅黑; margin-bottom:10px;}
+.huiyuan_06 li{float:left;}
+.huiyuan_06 a{display:block; padding-left:20px; padding-right:20px; text-decoration:none; color:#FFF;}
+.huiyuan_06 a:hover{background-color:#032729; font-weight:bold;}
+.huiyuan_07{height:50px; line-height:50px; text-align:center;}
+/*会员样式定义结束*/
+
+/*租车客服样式定义开始*/
+.carkefu_01{width:230px; float:left;}
+.carkefu_02{width:950px; float:left; margin-left:10px;}
+.carkefu_03{height:48px; line-height:48px; border:1px solid #DFDFDF; padding-left:16px;font-size:15px; font-family:微软雅黑; color:#222; font-weight:bold;}
+.carkefu_04{height:45px; line-height:45px; font-size:14px; color:#979893;}
+.carkefu_04 a{text-decoration:none; color:#979893;}
+.carkefu_04 a:hover{text-decoration:none; color:#C00;}
+.carkefu_05 ul{border-left:1px solid #DFDFDF;border-right:1px solid #DFDFDF;border-bottom:1px solid #DFDFDF; padding-left:16px; padding-top:10px; padding-bottom:10px; line-height:25px;font-size:13px; font-family:微软雅黑; color:#333;}
+.carkefu_05 a{text-decoration:none; color:#868686;}
+.carkefu_05 a:hover{text-decoration:none; color:#C00;}
+.carkefu_06{height:51px; line-height:51px; background-image:url(images/carkefu_09.jpg); padding-left:21px;font-size:15px; font-family:微软雅黑; color:#212121;}
+.carkefu_07{line-height:27px; font-size:14px; color:#777777;border-left:1px solid #DFDFDF;border-right:1px solid #DFDFDF;border-bottom:1px solid #DFDFDF; padding:19px;}
+/*租车客服样式定义结束*/
+
+/*单页-租车*/
+.zuche_01{ padding:30px 0 0 0;}
+.zuche_02 { margin-top:15px;}
+.zuche_02 td{ background:#236D76; text-align:center; color:#fff; font:normal bold 17px "微软雅黑";}
+.zuche_03{ padding:30px 0 70px 0; color:#444;font:normal normal 17px/28px "微软雅黑";}
+
+
+#kinMaxShow{
+ visibility:hidden;width:100%; height:470px; overflow:hidden; padding:0px; margin:0px;
+ }
+ 
+ 
+ #kinMaxShow * {
+	margin: 0;
+	padding: 0;
+}
+
+#kinMaxShow .KMSPrefix_kinMaxShow_image_box {
+	width: 100%;
+	height: 470px;
+	position: relative;
+	z-index: 1;
+}
+
+#kinMaxShow .KMSPrefix_kinMaxShow_image_box .KMSPrefix_kinMaxShow_image_item
+	{
+	width: 100%;
+	height: 470px;
+	position: absolute;
+	overflow: hidden;
+}
+
+#kinMaxShow .KMSPrefix_kinMaxShow_image_box .KMSPrefix_kinMaxShow_image_item a.KMSPrefix_kinMaxShow_coverlink
+	{
+	width: 100%;
+	height: 470px;
+	display: block;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	text-indent: 0;
+	outline: none;
+	hide-focus: expression(this.hideFocus = true);
+}
+
+#kinMaxShow .KMSPrefix_kinMaxShow_button {
+	right: 10px;
+	bottom: 10px;;
+	position: absolute;
+	list-style: none;
+	z-index: 2;
+	overflow: hidden;
+	_zoom: 1;
+}
+
+#kinMaxShow .KMSPrefix_kinMaxShow_button li {
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	font-size: 10px;
+	background: #cccaca;
+	border: 1px solid #ffffff;
+	color: #666666;
+	text-align: center;
+	margin-right: 8px;
+	font-family: Verdana;
+	float: left;;
+	cursor: pointer;
+	-webkit-text-size-adjust: none;
+}
+
+#kinMaxShow .KMSPrefix_kinMaxShow_button li.KMSPrefix_kinMaxShow_focus {
+	background: #CC0000;
+	border: 1px solid #FF0000;
+	color: #000000;;
+	cursor: default;
+}
+
+#con_ban{
+	float: left;
+	background: red;
+	width: 600px;
+	height:90px;
+	margin-top: 6px;
+}
+#con_ban a {
+	display: block;
+	float: left;
+}
+
+a#weixin span#erweima {
+	display: none;
+	width: 201px;
+	height: 274px;
+	background: url(eweima.png) no-repeat;
+	position: absolute;
+	z-index: 100;
+}
+
+a#weixin:hover span#erweima {
+	display: block;
+}
+
+
+*{margin:0px; padding:0px;}
+body{font-size:12px; color:#333; font-family:"å¾®è½¯é›…é»‘";}
+ul{list-style-type:none;}
+img{border:0;}
+
+
+a.wl:link,a.wl:visited,a.wl:active {color:#FFF;text-decoration:none;}
+a.wl:hover {color:#C00;}
+
+a.wb:link,a.wb:visited,a.wb:active {color:#593610;text-decoration:none;}
+a.wb:hover {color:#C00;}
+
+a.wr:link,a.wr:visited,a.wr:active {color:#C00;text-decoration:none;}
+a.wr:hover {color:#333;}
+
+a.wg:link,a.wg:visited,a.wg:active {color:#999;text-decoration:none;}
+a.wg:hover {color:#C72D13;}
+
+.f_black {color:#000;}
+.f_red   {color:#C00;}
+.f_white {color:#FFF;}
+.f_gray  {color:#999;}
+.f_orange{color:#F90;}
+.f_green {color:#66A228;}
+.f_blue  {color:blue;}
+.f_mblue {color:#109BD2;}
+.f_dblue {color:#1B75BC;}
+.f_gold  {color:#C82E14;}
+.f_pink  {color:#B5084A;}
+.f_Arial {font-family:Arial, Helvetica, sans-serif;}
+.f_yk {font-family:"å¾®è½¯é›…é»‘";}
+.blod {font-weight:bold;}
+.noblod {font-weight:normal;}
+.px11 {font-size:11px;}
+.px12 {font-size:12px;}
+.px13 {font-size:13px;}
+.px14 {font-size:14px;}
+.px15 {font-size:15px;}
+.px16 {font-size:16px;}
+.px18 {font-size:18px;}
+.px20 {font-size:20px;}
+.px25 {font-size:25px;}
+.fleft {float:left;}
+.fright{float:right;}
+.mt5  {margin-top:5px;}
+.mt10 {margin-top:10px;}
+.mt15 {margin-top:15px;}
+.mt20 {margin-top:20px;}
+.line {height:15px;width:100%;clear:left; border-bottom: solid 1px #E3E3E3;}
+.clear{clear:both; line-height:0px;}
+
+.kk {width:1160px; margin:0 auto;}
+
+#ct {
+	background:url(bg.jpg) repeat-y center top;
+	border-bottom:solid 1px #E0E0E0;
+}
+.ct1 {
+	color: #F4D5D0;
+	padding: 15px;
+	float: left;
+	height: 130px;
+	width: 260px;
+}
+.ct1 h1 {
+	background: url(icon.png) no-repeat 0px 8px;
+	padding-left: 25px;
+	line-height: 30px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: normal;
+}
+.ct1 h2 {
+	font-size:24px;
+}
+
+
+.ct1 h3 {
+	font-size: 18px;
+	line-height:22px;
+}
+.ct2 {
+	float: left;
+	border-right: 1px solid #E0E0E0;
+	height: 160px;
+	width: 216px;
+}
+.ct2 div {
+	background:url(icon.png) no-repeat;
+	padding-top:70px;
+	width:100px;
+	margin:40px auto 0 auto;
+	text-align:center;
+	font-size:16px;
+	color:#12A589;
+}
+.ct2 div.tb1 {
+	background-position:20px -90px;
+}
+.ct2 div.tb2 {
+	background-position:-120px -85px;
+}
+.ct2 div.tb3 {
+	background-position:-255px -85px;
+}
+.ct2 div.tb4 {
+	background-position:-380px -75px;
+}
+.ct2:hover {
+	background:#F4F4F4;
+}
+
